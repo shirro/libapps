@@ -282,7 +282,13 @@ hterm.ScrollPort.prototype.decorate = function(div) {
       '-webkit-user-select: none;');
 
   var style = doc.createElement('style');
-  style.textContent = 'x-row {}';
+  style.textContent = 'x-row {}' +
+	'@font-face {font-family: "DejaVu Sans PowerLine Mono";' +
+	'src: url('+lib.resource.getDataUrl('hterm/font/deja')+') format("woff");' +
+	'font-weight: normal;' +
+	'font-style: normal;' +
+	'}'; 
+  
   doc.head.appendChild(style);
 
   this.xrowCssRule_ = doc.styleSheets[0].cssRules[0];

@@ -154,7 +154,7 @@ hterm.PreferenceManager = function(profileId) {
     /**
      * Default font family for the terminal text.
      */
-    ['font-family', ('"DejaVu Sans Mono", "Everson Mono", ' +
+    ['font-family', ('"DejaVu Sans PowerLine Mono", "DejaVu Sans Mono", "Everson Mono", ' +
                      'FreeMono, "Menlo", "Terminal", ' +
                      'monospace')],
 
