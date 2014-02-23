@@ -283,8 +283,8 @@ hterm.ScrollPort.prototype.decorate = function(div) {
 
   var style = doc.createElement('style');
   style.textContent = 'x-row {}' +
-	'@font-face {font-family: "DejaVu Sans PowerLine Mono";' +
-	'src: url('+lib.resource.getDataUrl('hterm/font/deja')+') format("woff");' +
+	'@font-face {font-family: "Inconsolata Awesome";' +
+	'src: url('+lib.resource.getDataUrl('hterm/font/inconsolata-awesome')+') format("woff");' +
 	'font-weight: normal;' +
 	'font-style: normal;' +
 	'}'; 
